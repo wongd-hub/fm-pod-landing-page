@@ -52,6 +52,7 @@ export default function Home() {
               <Image
                   src={bgPattern}
                   alt=""
+                  layout='fixed'
               />
             </div>
           </div>

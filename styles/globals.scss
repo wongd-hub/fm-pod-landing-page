@@ -123,6 +123,78 @@ a {
   }
 }
 
+@media only screen and (max-width: 1010px) {
+  html,
+  body {
+    overflow: visible;
+  }
+
+  .site-container {
+    height: fit-content;
+    padding: 0;
+  }
+
+  .landing-container {
+    grid-template: 2fr 3fr 1fr / 1fr 2fr 1fr;
+  }
+
+  .logo {
+    grid-area: 1 / 1 / span 1 / span 1;
+    position: relative;
+    top: 0;
+    bottom: auto;
+    height: fit-content;
+    margin-left: 39px;
+    margin-top: 50px;
+  }
+ 
+  .access-card {
+    grid-area: 2 / 1 / span 1 / span 2;
+    padding-left: 39px;
+    
+    & > h1 {
+      text-transform: uppercase;
+      color: var(--green);
+      font-size: calc(44rem / 16);
+      line-height: calc(54rem / 16);
+      margin-top: 93px;
+    }
+  
+    & > p {
+      color: var(--white);
+      max-width: calc(445rem / 16);
+      font-weight: 300;
+      margin-top: 31px;
+    }
+  
+  }
+
+  .deco-img {
+    grid-area: 1 / 2 / span 2 / span 3;
+    background: url('../static/assets/tablet/image-host.jpg') no-repeat;
+    background-position: right top;
+    overflow: hidden;
+  }
+
+  .deco-pattern {
+    grid-area: 3 / 1 / span 1 / span 4;
+    justify-content: flex-start;
+    height: fit-content;
+    padding-left: 39px;
+  }
+
+  .partners {
+    gap: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 725px) {
+  .site-container {
+    
+  }
+}
+
 /* Input Styling - errors while trying to import a separate scss module */
 .input-field {
   height: fit-content;
