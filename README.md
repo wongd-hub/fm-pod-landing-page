@@ -27,12 +27,10 @@ This is a solution to the [Pod request access landing page challenge on Frontend
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS Flex & Grid
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
+- [Framer Motion](https://www.framer.com/docs/) - Animation library
 
 ### Useful resources
 
