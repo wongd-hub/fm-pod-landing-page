@@ -16,12 +16,12 @@ This is a solution to the [Pod request access landing page challenge on Frontend
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./static/assets/ScreenShot2022-02-13at3.21.11pm.png)
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/wongd-hub/fm-pod-landing-page)
-- Live Site URL: [Vercel](https://your-live-site-url.com)
+- Live Site URL: [Vercel](https://fm-pod-landing-page-ppehmin96-wongd-hub.vercel.app/)
 
 ## My process
 
